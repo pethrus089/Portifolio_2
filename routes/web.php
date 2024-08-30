@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('portifolio/index');
+})->name('portifolio.index');
+
+Route::get('/contatos', function () {
+    return view('portifolio/contatos');
+})->name('portifolio.contatos');
+
+Route::get('/tecnologias', function () {
+    return view('portifolio/tecnologias');
+})->name('portifolio.tecnologias');
+
+Route::get('/projetos', function () {
+    return view('portifolio/projetos');
+})->name('portifolio.projetos');
