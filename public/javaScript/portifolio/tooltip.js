@@ -6,7 +6,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 //typing 
 
 function prettyLog(text) {
-    console.log(text); // Substitua com sua lógica de log
+    //console.log(text); // Substitua com sua lógica de log
   }
 
   var typed = new Typed("#element", {

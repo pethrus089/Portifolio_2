@@ -7,7 +7,7 @@
 <div class="animate__animated animate__fadeInDown" style=" display: grid; grid-template-columns: repeat(4, 1fr);  grid-template-rows: repeat(3, auto); " >
 
 <svg data-bs-toggle="tooltip"
-     data-bs-title="Tenho experiência com HTML5, incluindo a criação de estruturas de página, elementos semânticos e integração com CSS e JavaScript."
+     data-bs-title="Aprendi HTML 5 no cusro em video do professor Guanabara. Utilizo para o front da maior parte dos meus projetos."
      style="fill: currentColor;"
      class="tecnologias"
      role="img"
@@ -18,7 +18,7 @@
 </svg>
 
 <svg data-bs-toggle="tooltip"
-     data-bs-title="Tenho experiência com CSS3, incluindo estilização de layouts responsivos, animações e flexbox."
+     data-bs-title="Aprendi CSS 3 no cusro em video do professor Guanabara. Utilizo para o front da maior parte dos meus projetos."
      style="fill: currentColor;"
      class="tecnologias"
      role="img"
@@ -40,7 +40,7 @@
 </svg>
 
 <svg data-bs-toggle="tooltip"
-     data-bs-title="Tenho experiência com Node.js, incluindo desenvolvimento de aplicações escaláveis e eficientes usando JavaScript no lado do servidor."
+     data-bs-title="Aprendi Node.js juntamente com JavaScript no curso em vídeo do Guanabara. Após isso, utilizei o Node.js para realizar web scraping, capturando dados de outros sites para monitorar os preços da concorrência na empresa em que trabalhava."
      style=" fill: currentColor;"
      class="tecnologias"
      role="img"
@@ -62,7 +62,7 @@
 </svg>
 
 <svg data-bs-toggle="tooltip"
-     data-bs-title="Tenho experiência com Laravel, incluindo desenvolvimento de aplicações web robustas e seguras com o framework PHP."
+     data-bs-title="Estou atualmente fazendo um curso de Laravel na udemy para aprimorar mes conhecimentos. Este Portifólio já estáa em Laravel."
      style="fill: currentColor;"
      class="tecnologias"
      role="img"
@@ -84,7 +84,7 @@
 </svg>  
 
 <svg data-bs-toggle="tooltip"
-     data-bs-title="Tenho experiência com Oracle, incluindo administração de banco de dados e desenvolvimento de SQL avançado."
+     data-bs-title="Tenho experiência com Oracle, Primeiro bando de dados que tive contato no meu primeiro emprego com tecnologia. Aprendi PLSQL e trabalhei com DB Oracle 11g e 19e."
      style="fill: currentColor;"
      class="tecnologias"
      role="img"
