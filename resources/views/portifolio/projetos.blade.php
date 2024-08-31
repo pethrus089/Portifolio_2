@@ -15,36 +15,40 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <h4>Nome Projeto 1</h4>
-      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 1" style="width: 60%;">
+      <h4>Administrador Promotores</h4>
+      <a href="{{ asset('admin-promo/src/html/index.php') }}" target="blanck" >
+      <img src="{{ asset('img/admin-promo.png') }}" alt="Imagem do projeto 1" style="width: 80%;">
+      </a>
       <p style="padding: 20px; padding-top: 0;">
-        texto explicando o projeto 1. texto explicando o projeto 1. texto explicando o projeto 1.
+      Este é o perfil de Administrador de um sistema de gestão de promotores. Nele, é possível cadastrar promotores, definir metas e objetivos, além de baixar fotos das tarefas realizadas. O sistema facilita o gerenciamento e o monitoramento eficiente das atividades dos promotores.
       </p>
     </div>
     <div class="carousel-item">
-      <h4>Nome Projeto 2</h4>
-      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 2" style="width: 60%;">
+      <h4>Promotores</h4>
+       <a href="{{ asset('promo/') }}" target="blanck" >
+       <img src="{{ asset('img/promo.png') }}" alt="Imagem do projeto 2" style="width: 80%;">
+       </a>
       <p style="padding: 20px; padding-top: 0;">
-        texto explicando o projeto 2. texto explicando o projeto 2. texto explicando o projeto 2.
+      Esta é uma aplicação web projetada para promotores, onde eles podem acessar suas rotas de clientes, visualizar informações detalhadas sobre cada cliente, realizar check-ins e check-outs, além de enviar fotos das tarefas concluídas.
       </p>
     </div>
     <div class="carousel-item">
       <h4>Nome Projeto 3</h4>
-      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 3" style="width: 60%;">
+      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 3" style="width: 80%;">
       <p style="padding: 20px; padding-top: 0;">
         texto explicando o projeto 3. texto explicando o projeto 3. texto explicando o projeto 3.
       </p>
     </div>
     <div class="carousel-item">
       <h4>Nome Projeto 4</h4>
-      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 4" style="width: 60%;">
+      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 4" style="width: 80%;">
       <p style="padding: 20px; padding-top: 0;">
         texto explicando o projeto 4. texto explicando o projeto 4. texto explicando o projeto 4.
       </p>
     </div>
     <div class="carousel-item">
       <h4>Nome Projeto 5</h4>
-      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 5" style="width: 60%;">
+      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 5" style="width: 80%;">
       <p style="padding: 20px; padding-top: 0;">
         texto explicando o projeto 5. texto explicando o projeto 5. texto explicando o projeto 5.
       </p>
