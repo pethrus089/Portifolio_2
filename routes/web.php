@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Middleware\LogAcessoMiddleware;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('portifolio/index');
-})->name('portifolio.index');
-
+})
+->middleware(LogAcessoMiddleware::class)
+->name('portifolio.index');
 Route::get('/contatos', function () {
     return view('portifolio/contatos');
 })->name('portifolio.contatos');
