@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\LogAcessoMiddleware;
+use App\Http\Controllers\rankingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +17,8 @@ use App\Http\Middleware\LogAcessoMiddleware;
 
 Route::get('/', function () {
     return view('portifolio/index');
-})
-->middleware(LogAcessoMiddleware::class)
-->name('portifolio.index');
+})->name('portifolio.index');
+
 Route::get('/contatos', function () {
     return view('portifolio/contatos');
 })->name('portifolio.contatos');
@@ -30,3 +30,9 @@ Route::get('/tecnologias', function () {
 Route::get('/projetos', function () {
     return view('portifolio/projetos');
 })->name('portifolio.projetos');
+
+Route::get('/ranking' , 'RankingController@index');
+
+Route::fallBack(function(){
+    return 'não há essa rota';
+});

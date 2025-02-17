@@ -4,9 +4,12 @@ namespace App\Http\Middleware;
 
 use Closure;
 use App\LogAcesso;
+use Illuminate\Routing\Router;
+
 
 class LogAcessoMiddleware
 {
+    
     /**
      * Handle an incoming request.
      *
@@ -28,6 +31,7 @@ class LogAcessoMiddleware
             'dispositivo' => $dispositivo, 
             'rota' => $rota
         ]);
+        
         return $next($request);
         //dd($request);
         //return Response('<pre>'.$request.'</pre>');

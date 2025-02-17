@@ -16,28 +16,31 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <h4>Administrador Promotores</h4>
-      <a href="{{ asset('admin-promo/src/html/index.php') }}" target="blanck" >
-      <img src="{{ asset('img/admin-promo.png') }}" alt="Imagem do projeto 1" style="width: 80%;">
+      <a href="{{ asset('admin-promo/src/html/index.php') }}" target="blanck">
+        <img src="{{ asset('img/admin-promo.png') }}" alt="Imagem do projeto 1" style="width: 80%;">
       </a>
       <p style="padding: 20px; padding-top: 0;">
-      Este é o perfil de Administrador de um sistema de gestão de promotores. Nele, é possível cadastrar promotores, definir metas e objetivos, além de baixar fotos das tarefas realizadas. O sistema facilita o gerenciamento e o monitoramento eficiente das atividades dos promotores.
+        Este é o perfil de Administrador de um sistema de gestão de promotores. Nele, é possível cadastrar promotores, definir metas e objetivos, além de baixar fotos das tarefas realizadas. O sistema facilita o gerenciamento e o monitoramento eficiente das atividades dos promotores.
       </p>
     </div>
     <div class="carousel-item">
       <h4>Promotores</h4>
-       <a href="{{ asset('promo/') }}" target="blanck" >
-       <img src="{{ asset('img/promo.png') }}" alt="Imagem do projeto 2" style="width: 80%;">
-       </a>
+      <a href="{{ asset('public/promo/') }}" target="blanck">
+        <img src="{{ asset('img/promo.png') }}" alt="Imagem do projeto 2" style="width: 80%;">
+      </a>
       <p style="padding: 20px; padding-top: 0;">
-      Esta é uma aplicação web projetada para promotores, onde eles podem acessar suas rotas de clientes, visualizar informações detalhadas sobre cada cliente, realizar check-ins e check-outs, além de enviar fotos das tarefas concluídas.
+        Esta é uma aplicação web projetada para promotores, onde eles podem acessar suas rotas de clientes, visualizar informações detalhadas sobre cada cliente, realizar check-ins e check-outs, além de enviar fotos das tarefas concluídas.
       </p>
     </div>
     <div class="carousel-item">
-      <h4>Nome Projeto 3</h4>
-      <img src="{{ asset('img/envia.png') }}" alt="Imagem do projeto 3" style="width: 80%;">
+      <h4>Site para vendas</h4>
+      <a href="{{ asset('exemplo/')}}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ asset('img/exemplo_site.png') }}" alt="Imagem do projeto 3" style="width: 80%;">
+      </a>
       <p style="padding: 20px; padding-top: 0;">
-        texto explicando o projeto 3. texto explicando o projeto 3. texto explicando o projeto 3.
+        Este projeto é um site responsivo para exposição de produtos, criado com Bootstrap, JavaScript e PHP. Ele organiza imagens e descrições de forma clara, adaptando-se a diferentes dispositivos. Ideal para demonstrar habilidades em desenvolvimento web no portfólio.
       </p>
+
     </div>
     <div class="carousel-item">
       <h4>Nome Projeto 4</h4>
